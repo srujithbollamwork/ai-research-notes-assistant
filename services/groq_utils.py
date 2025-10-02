@@ -89,7 +89,7 @@ def call_chat_with_fallback(messages, model: str | None = None, **kwargs):
     If it fails with BadRequestError (e.g., model decommissioned) try fallback model(s).
     Returns the raw resp object on success or raises the last exception.
     """
-    preferred = model or os.getenv("GROQ_MODEL", "llama-3.1-8b-instant")
+    preferred = model or os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
     fallbacks = []
     env_fb = os.getenv("GROQ_FALLBACK_MODEL")
     if env_fb:
