@@ -4,25 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b5473e2-e18b-4f55-abee-a2e67fd87633" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ai-research-notes-assistant.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/note_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/ai_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/note_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/report_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/search_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/file_utils.py" afterDir="false" />
+    <list default="true" id="7b5473e2-e18b-4f55-abee-a2e67fd87633" name="Changes" comment="Initial project setup done.">
+      <change afterPath="$PROJECT_DIR$/services/export_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/formatter_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/grammar_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/groq_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/study_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/tag_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/user_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/writing_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/pdf_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/note_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/note_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/ai_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/ai_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/search_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/citation_checker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/file_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/file_utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +63,19 @@
       <option name="presentableId" value="Default" />
       <updated>1759389684167</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial project setup done.">
+      <option name="closed" value="true" />
+      <created>1759390919920</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1759390919920</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial project setup done." />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial project setup done." />
   </component>
 </project>

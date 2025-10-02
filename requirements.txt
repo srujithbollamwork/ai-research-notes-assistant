@@ -5,3 +5,8 @@ groq
 pandas
 PyPDF2
 pdfplumber
+pytesseract
+Pillow
+nltk
+bcrypt
+language_tool_python
