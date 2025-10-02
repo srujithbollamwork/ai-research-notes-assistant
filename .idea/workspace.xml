@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b5473e2-e18b-4f55-abee-a2e67fd87633" name="Changes" comment="All the features are added">
+    <list default="true" id="7b5473e2-e18b-4f55-abee-a2e67fd87633" name="Changes" comment="API Ratelimit handled">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/groq_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/groq_utils.py" afterDir="false" />
     </list>
@@ -76,12 +76,21 @@
       <option name="project" value="LOCAL" />
       <updated>1759400464011</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="API Ratelimit handled">
+      <option name="closed" value="true" />
+      <created>1759401383648</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1759401383648</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial project setup done." />
     <MESSAGE value="All the features are added" />
-    <option name="LAST_COMMIT_MESSAGE" value="All the features are added" />
+    <MESSAGE value="API Ratelimit handled" />
+    <option name="LAST_COMMIT_MESSAGE" value="API Ratelimit handled" />
   </component>
 </project>
