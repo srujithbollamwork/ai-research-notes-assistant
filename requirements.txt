@@ -1,0 +1,7 @@
+streamlit
+pymongo
+python-dotenv
+groq
+pandas
+PyPDF2
+pdfplumber
